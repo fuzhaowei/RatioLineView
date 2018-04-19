@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <com.application.scrollertest.CityRatioLineView
+        android:id="@+id/city_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/line_legend_background"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间      04.16"
+            android:textColor="#fff"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/beijing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京          10"
+            android:textColor="#fff"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tianjing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天津          10"
+            android:textColor="#fff"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/shijiazhuang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="石家庄       10"
+            android:textColor="#fff"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
